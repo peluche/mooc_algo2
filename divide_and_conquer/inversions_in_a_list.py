@@ -39,7 +39,6 @@ def count_inversions(l):
     return res, inversions_first + inversions_second + inversions_inter
 
 def main():
-    global inversions
     test_lists = [
         [1, 2, 3, 4],
         [2, 1, 3, 4, 5],
