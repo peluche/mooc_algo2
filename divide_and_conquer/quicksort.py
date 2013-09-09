@@ -4,7 +4,7 @@ def choose_pivot(l, start, stop):
     """
     choose a pivot and swap it in first position
     for this version the pivot is the first value so we do nothing
-    could have used random pivot, or mediane
+    could have used random pivot, or median
     """
     return l[start]
 
